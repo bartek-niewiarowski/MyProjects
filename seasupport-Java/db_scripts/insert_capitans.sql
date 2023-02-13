@@ -1,0 +1,12 @@
+rollback;
+INSERT INTO captains VALUES ('Ewa', 'Miazga', '12345678911', captains_id.nextval);
+INSERT INTO captains VALUES ('Piotr', 'Maciejewski', '11982645371', captains_id.nextval);
+INSERT INTO captains VALUES ('Piotr', 'Janowski', '63754623519', captains_id.nextval);
+INSERT INTO captains VALUES ('Andrzej', 'King','88888888881', captains_id.nextval);
+INSERT INTO captains VALUES ('Lex', 'Kochhar', '63764625372', captains_id.nextval);
+INSERT INTO captains VALUES ('Alexander', 'Hunold', '63645626572', captains_id.nextval);
+INSERT INTO captains VALUES ('Tracy', 'Hunold', '88882388888', captains_id.nextval);
+INSERT INTO captains VALUES ('David', 'Ernst', '15234588888', captains_id.nextval);
+INSERT INTO captains VALUES ('Valli', 'Austin', '8475635291', captains_id.nextval);
+INSERT INTO captains VALUES ('Diana', 'Pataballa','5627386522', captains_id.nextval);
+commit;

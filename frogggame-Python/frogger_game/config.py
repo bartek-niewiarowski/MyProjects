@@ -1,0 +1,16 @@
+frog_step = 50
+frog_lenght = 50
+standard_height = 50
+const_division = 9
+checkpoint_shift = 10
+const_points = 20
+text_color = (250, 250, 250)
+text_shift = 30
+text_size = 20
+path = 'textures_and_game_data/user.json'
+std_win_width = 800
+std_win_height = 450
+std_car_width = 70
+std_log_width = 100
+std_alligator_width = 70
+std_turtle_width = 50

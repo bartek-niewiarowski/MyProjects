@@ -1,0 +1,25 @@
+INSERT INTO ships VALUES ('CAE563', 'Magdalena', 1, 13, 'sailing_boat');
+INSERT INTO ships VALUES ('CAR683', 'Komanczi', 2, 13,'sailing_boat');
+INSERT INTO ships VALUES ('RTE573', 'Blue Rider', 2, 10, 'motor_boat');
+INSERT INTO ships VALUES ('UIA163', 'Katarzyna', 5, 11,'sailing_boat');
+INSERT INTO ships VALUES ('CAR577', 'I Love Poland', 3, 13,'sailing_boat');
+INSERT INTO ships VALUES ('CAE363', 'Tobias', 4, 12,'sailing_boat');
+INSERT INTO ships VALUES ('CAK123', 'Flogger', 14, 12,'sailing_boat');
+INSERT INTO ships VALUES ('CAW063', 'Maui', 6, 13,'sailing_boat');
+INSERT INTO ships VALUES ('DEW443', 'Athaman', 7, 14,'sailing_boat');
+INSERT INTO ships VALUES ('DEC113', 'Blue Velvet', 8, 15,'sailing_boat');
+INSERT INTO ships VALUES ('DKW883', 'Kolonia', 9, 16, 'motor_boat');
+INSERT INTO ships VALUES ('DRR223', 'Rotara', 9, 14,'sailing_boat');
+INSERT INTO ships VALUES ('FH4432', 'Jessica', 10, 15,'sailing_boat');
+INSERT INTO ships VALUES ('FW1998', 'White Mountain', 11, 25, 'motor_boat');
+INSERT INTO ships VALUES ('TR4433', 'Black Mountain', 12, 50, 'motor_boat');
+INSERT INTO ships VALUES ('FCG444', 'Sunny Day', 14, 20,'sailing_boat');
+INSERT INTO ships VALUES ('FC5555', 'Rainy Day', 12, 20, 'motor_boat');
+INSERT INTO ships VALUES ('FRT432', 'Fast Arrow', 13, 25, 'motor_boat');
+INSERT INTO ships VALUES ('FE4563', 'Sweet Dream', 13, 18, 'motor_boat');
+INSERT INTO ships VALUES ('YU4566', 'Big Rabbit', 13, 17, 'motor_boat');
+INSERT INTO ships VALUES ('FE3334', 'Queen', 12, 100, 'motor_boat');
+INSERT INTO ships VALUES ('FR3211', 'King of Seas', 15, 13,'sailing_boat');
+INSERT INTO ships VALUES ('FF4443', 'Traveler', 15, 17, 'motor_boat');
+commit ;
+

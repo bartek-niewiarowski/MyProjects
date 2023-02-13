@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:oracle:thin:@//ora4.ii.pw.edu.pl:1521/pdb1.ii.pw.edu.pl</property>
+    <property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
+     <property name="connection.username">z03</property>
+     <property name="connection.password">pap7ay</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+    <property name="hbm2ddl.auto">update</property>
+      <property name="hibernate.connection.provider_disables_autocommit">false</property>
+<!--      <mapping class="src.logic.CaptainsEntity"/>-->
+<!--      <mapping class="src.logic.AllUsersEntity"/>-->
+<!--      <property name="hibernate.connection.provider_class">org.hibernate.</property>-->
+      <property name="hibernate.c3p0.min_size">10</property>
+      <property name="hibernate.c3p0.max_size">20</property>
+      <property name="hibernate.c3p0.acquire_increment">1</property>
+      <property name="hibernate.c3p0.idle_test_period">3000</property>
+      <property name="hibernate.c3p0.max_statements">50</property>
+      <property name="hibernate.c3p0.timeout">1800</property>
+      <property name="hibernate.c3p0.validate">1800</property>
+      <property name="show_sql">false</property>
+    <property name="hibernate.connection.release_mode">after_statement</property>
+    <property name="hibernate.jdbc.batch_size">5</property>
+<!--    <exclude-unlisted-classes>true</exclude-unlisted-classes>-->
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

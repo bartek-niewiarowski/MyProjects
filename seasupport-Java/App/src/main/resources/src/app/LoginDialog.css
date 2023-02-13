@@ -1,0 +1,89 @@
+.root
+{
+    -fx-background-image: url("Background.jpg");
+}
+
+.label
+{
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial Black";
+    -fx-font-weight: bold;
+    -fx-text-fill: #20B2AA;
+}
+
+#formatTitle
+{
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #20B2AA;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+
+}
+
+.button {
+   -fx-text-fill: white;
+   -fx-font-family: "Arial Narrow";
+   -fx-font-weight: bold;
+   -fx-background-color: linear-gradient(#035F85, #1385B4);
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover{
+  -fx-background-color: linear-gradient(#1385B4, #035F85);
+  -fx-text-fill:white;
+  -fx-font-weight:bold;
+
+}
+
+.button:pressed
+{
+  -fx-background-color: linear-gradient(#20a0bd, #0070d8, #20a0bd);
+  -fx-text-fill: #70ecff;
+  -fx-font-weight:bold;
+}
+
+#notification
+{
+    -fx-fill: #ff7070;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+}
+
+.text-field {
+  -fx-prompt-text-fill: #1385B4;;
+  -fx-border-color: #1385B4;
+  -fx-border-width: 0 0 1 0; // top, right, bottom, left
+  -fx-background-color: transparent;
+}
+
+.text-field:focused {
+  -fx-border-color: #035F85;
+  -fx-border-width: 0 0 2 0; // top, right, bottom, left
+  -fx-background-color: transparent;
+}
+
+.date-picker: .arrow-button {
+  -fx-font-color: black;
+  -fx-border-color: #1385B4;
+  -fx-background-color: transparent;
+}
+
+.date-picker .arrow-button:hover {
+  -fx-background-color: #1385B4;
+}
+
+.date-picker .arrow-button .arrow {
+  -fx-background-color: #035F85;
+}
+
+.date-picker {
+  -fx-border-color: #1385B4;
+  -fx-border-width: 0 0 1 0; // top, right, bottom, left
+  -fx-background-color: transparent;
+}
+
+.date-picker:focused {
+  -fx-border-color: #035F85;
+  -fx-border-width: 0 0 2 0; // top, right, bottom, left
+  -fx-background-color: transparent;
+}
